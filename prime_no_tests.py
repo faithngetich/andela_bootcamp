@@ -16,4 +16,6 @@ class PrimeNumberTest(unittest.TestCase):
     def test_that_zero_is_not_a_prime_number(self):
         self.assertFalse(prime_no_function.prime(0))
 
+    def test_if_known_prime_returns_true(self):
+        self.assertTrue(prime_no_function.prime(13))
     
