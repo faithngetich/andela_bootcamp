@@ -13,7 +13,7 @@ def prime(n):
            if n % i == 0:
                # in a case  result is Zero(0), means n is divisible by another value apart from itsself and 1
                if_prime = False
-   # the value sstatus returns tells if number is prime=True or not=False
+   # the value status returns tells if number is prime=True or not=False
    return if_prime
 
 def array_of_prime_integers(n):
@@ -22,4 +22,5 @@ def array_of_prime_integers(n):
    for i in range(0, n):
        if prime_number(i):# if True append to list
            array_of_prime_numbers.append(i)
-   return array_of_prime_numbers
+   return array_of_prime_numbers 
+
